@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "lucid-cardano": "^0.10.7",
+    "prompt-sync": "^4.2.0"
+  },
+  "type": "module",
+  "experiments": {
+    "asyncWebAssembly": true,
+    "topLevelAwait": true,
+    "layers": true
+  },
+  "scripts": {
+    "build": "node index.js"
+  }
+}
